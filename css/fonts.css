@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Klavika-osf';
+    src: url('../fonts/KlavikaLight-OSF.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klavika Bd';
+    src: url('../fonts/Klavika-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klavika-plain-reg';
+    src: url('../fonts/KlavikaRegular-Plain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klavika-plain';
+    src: url('../fonts/KlavikaMedium-Plain.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Klavika-osf';
+    src: url('../fonts/KlavikaRegular-OSF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+	/* old version 
+			.content-nav{
+				margin: 0 auto;
+				width: 1170px;
+				padding: 15px 0 14px ;
+			}
+			.content-nav ul{
+				display: inline-block;
+			}
+			nav ul li{
+				float: left;
+				margin-right: 50px;
+			}*/

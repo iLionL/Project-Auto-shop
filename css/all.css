@@ -1,0 +1,647 @@
+body{
+	color: #f2f2f2;
+	font:18px/24px 'Proxima Nova Rg', sans-serif;
+	min-width: 1170px;
+}
+								/*Header*/
+
+.header-wrapper{
+	/*height: 104px;*/
+	background: url(../images/bg-heder.png)repeat-x 50% 0;
+	display: block;
+	margin: 0 auto;
+}
+.header{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 22px 0 24px;
+}
+.box{
+	display: block;
+}
+.logo{
+	width: 200px;
+	height: 22px;
+	display: inline-block;
+	font-size: 28px;
+	font-family: 'Klavika Bd';
+}
+.logo p{
+	padding-top: 13px;
+	font-size: 28px;
+	line-height: 13px;
+	display: inline-block;
+	font-family: 'Klavika-osf';
+}
+.nav-header{
+	float: right;
+}
+.nav-header ul li{
+	float: left;
+	font-size: 16px;
+	padding: 0 0 0 34px;
+}
+.nav-header ul{
+	overflow: hidden;
+	font: 16px/20px 'Klavika-osf';
+	list-style: none;
+	padding: 0;
+	margin-right: -1px;
+}	
+								/*Underline a*/
+
+.nav-header ul li a {
+    line-height: 1;
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    cursor: pointer;
+}
+.nav-header ul li a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+	transition: width .3s ease-in-out;
+	z-index: 4;
+}
+.nav-header ul li a:hover:after,
+.nav-header ul li a:focus:after {
+	width: 100%;
+}
+
+.main{
+	background: white;
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Klavika-plain';
+	font-size: 20px;
+}
+.content-nav{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 12px 0 14px ;
+}
+.content-nav ul, .content-nav ul li{
+	display: inline-block;
+}
+.content-nav ul>li{
+	float: left;
+	font: 20px 'Klavika-plain', sans-serif;
+	padding-right: 52px;
+	position: relative;
+}
+.content-nav ul>li:last-child{
+	margin-right: -10px;
+	float: right;
+}
+.tip:after{
+	content:'';
+  	width: 10px;
+	height: 7px;
+	background: url(../images/tip.png)no-repeat;
+  	position: absolute;
+	top: 5px;
+	margin-left: 13px;
+}
+.content-nav ul>li>a{
+	letter-spacing: -0.5px;
+	text-decoration: none;
+	color: #a71c1c;
+}
+.content-nav ul li a:hover{
+	color: rgb(115, 129, 124);
+	
+}
+								/*Sub-menu*/
+
+.content-nav ul ul{
+	padding: 10px;
+	display: none;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	z-index: 1;
+}
+.content-nav ul ul li{
+	padding: 5px;
+	width: 100%;
+}
+
+.content-nav ul ul a{
+	color: rgb(236, 125, 81);
+	text-decoration: none;
+}
+.content-nav li:hover ul{
+	display: block;
+}
+.content-nav li:hover li{
+	display: block;
+}
+.content-nav ul{
+	position: relative;
+}
+						
+								/*Content*/
+
+								/* Dots*/
+
+
+								/*Dots-end*/
+.main-conteiner{
+	/*margin-top: 46px;*/
+	background: url(../images/carmaster.jpg) no-repeat 50% 0;
+	height: 456px; 
+	position: relative;
+}
+.main-conteiner1{
+	/*margin-top: 46px;*/
+	background: url(../images/carmaster1.jpg) no-repeat 50% 0;
+	height: 456px; 
+	position: relative;
+}
+
+.inner{
+	width: 698px;
+	font: 60px/65px 'Klavika-plain-reg';
+	letter-spacing: -1px;
+	background: url(../images/bg-inner.png);
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	padding: 20px 34px 25px;
+	margin: 0 0 0 -582px;
+}
+.conteiner{
+	background: #f2f2f2;
+}
+.conteiner-holder{
+	max-width: 1171px;
+    margin: 0 auto;
+    padding: 0 0 58px;
+}
+.conteiner-holder::after{
+	content: "";
+    display: block;
+    clear: both;
+}
+#content{
+	padding: 37px 0 0;
+    float: left;
+    width: 68%;
+}
+#content .text-holder {
+	padding: 0 52px 0 0;
+}
+#content h1{
+	color: #c82121;
+    font: 36px/40px 'Klavika-plain-reg';
+    margin: 0 0 9px;
+}
+#content p{
+	font-family: 'Proxima Nova Rg';
+	margin: 0 0 18px;
+	color: #414141;
+}
+#content .block-holder {
+    padding: 29px 0 0 4px;
+    overflow: hidden;
+	margin: 0 0 0 -30px;
+}
+#content .block{
+	width: 45%;
+    float: left;
+    margin: 0 0 0 30px;
+}
+#content .block ul{
+	font-size: 16px;
+	line-height: 22px;
+}
+#content .block ul li {
+    margin: 0 0 16px;
+    background: url(../images/bg-tip-block.png) no-repeat 0 5px;
+	padding: 0 0 0 24px;
+	color: #000000;
+}
+#content h2{
+	color: #c82121;
+    font: bold 20px/24px 'Klavika Bd';
+	margin: 0 0 15px;
+}
+
+								/*Register*/
+
+#sidebar{
+	float: right;
+    width: 371px;
+    /*padding: 0 0 0 0.6%;*/
+}
+#sidebar .register-holder {
+	background: #f2f2f2;
+	margin-top: -174px;
+	position: relative;
+	border-left: 2px solid #dedede;
+	padding: 25px 34px 0 32px;
+	z-index: 2;
+}
+#sidebar h3{
+	color: #a71c1c;
+	font: 25px/28px 'Klavika-plain-reg';
+	margin: 0 0 21px;
+	letter-spacing: -1px;
+}
+.row{
+	margin: 0 0 20px;
+}
+form, fieldset {
+	border-style: none;
+}
+#sidebar form input[type="text"], 
+#sidebar form input[type="tel"], 
+#sidebar form input[type="email"], 
+#sidebar form textarea[name="textarea"]{
+	padding: 8px 9px 8px;
+    border: 1px solid #cac9c9;
+    border-radius: 2px;
+    background: #dedddd;
+    display: block;
+    width: 282px;
+    font: 300 18px 'Klavika-osf';
+    margin: 0;
+}
+#sidebar form textarea[name="textarea"]{
+    height: 119px;
+	overflow: hidden;
+}
+/*.button label{
+	color: #000000;
+}
+.button{
+	padding-top:24px; 
+}
+#checkbox{
+	float: left;
+	margin-right: 11px;
+}*/
+#sidebar form input[type="text"]:hover, 
+#sidebar form input[type="tel"]:hover, 
+#sidebar form input[type="email"]:hover, 
+#sidebar form textarea[name="textarea"]:hover{
+    border-color: #908d8d;
+    background: rgb(187, 185, 185);
+    color: #fff;
+}
+.form-group{
+	margin-top: 21px; 
+	margin-bottom: 25px;
+}
+
+							/*Custom checkbox*/
+
+.form-group input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+  }
+.form-group label {
+	position: relative;
+	cursor: pointer;
+	color: #000000;
+	font: 300 18px 'Klavika-osf';
+}
+  
+.form-group label:before {
+	content:'';
+	background-color: transparent;
+	background: #dedddd;
+	width: 14px;
+	height: 14px;
+	border-radius: 2px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	margin-right: 5px;
+} 
+.form-group input:checked + label:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: 3px;
+	background: url(../images/checkbox.png);
+	width: 14px;
+	height: 13px;
+}
+
+							/*Button*/
+
+#sidebar form input[type="submit"] {
+	padding: 13px 0 12px;
+	margin: 0;
+	text-align: center;
+	background: #c52020;
+	width: 100%;
+	text-transform: uppercase;
+	font: 18px/22px 'Klavika-plain';
+	color: #ffffff;
+	border: 0;
+	border-radius: 2px;
+	display: block;
+}
+#sidebar form input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(155, 180, 71);
+    color: #e8e2c6;
+}
+
+							/*Pictures*/
+
+.images{
+	background: #e2e1e1;
+}
+.images-holder {
+    max-width: 1171px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 52px 0 65px;
+}
+.images-holder h1 {
+    color: #383838;
+    font: 36px/42px 'Klavika-plain-reg';
+    margin: 0 0 40px;
+}
+.allpictures-holder{
+	float: left;
+	margin: 0 0 0 -28px;
+	width: 808px;
+}
+
+.pictures-holder{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.thumb{
+	display: inline-block;
+    vertical-align: top;
+    letter-spacing: normal;
+    width: 267px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0 0 32px 28px;
+}
+.description{
+	min-height: 64px;
+	background: rgba(178, 29, 29, 0.75);
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	right: 0;
+	margin-bottom: 4px;
+	color: #ffffff;
+	padding: 14px 17px 0 17px;
+}
+.pictures-holder a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+.pictures-holder .description span{
+	font: 15px/18px 'Klavika-plain';
+	display: block;
+}
+.pictures-holder h2 {
+    font: 20px/24px 'Klavika-plain';
+    text-transform: uppercase;
+}
+.pictures-holder a:hover .description{
+	padding-bottom:35px;
+	transition:0.5s;
+}
+.bigpic-holder{
+	width: 370px;
+	float: right;
+}
+.bigpic{
+	position: relative;
+	width: 100%;
+}
+.icon{
+	height: 377px;
+    position: absolute;
+    left: 0px;
+	width: 370px;
+}
+.bigpic blockquote{
+	margin: 0;
+    quotes: none;
+    position: absolute;
+    top: 119px;
+    left: 29px;
+    font: 40px/48px 'Klavika-plain-reg';
+    color: #fff;
+    padding: 0;
+    width: 83%;
+}
+.bigpic blockquote q{
+	display: block;
+	margin: 0 0 12px;
+}
+.bigpic cite{
+	display: block;
+    font: 15px/18px 'Klavika-plain-reg';
+    text-transform: uppercase;
+    padding: 0 0 0 5px;
+}
+blockquote::after{
+	content: "";
+    position: absolute;
+    top: -62px;
+    left: 4px;
+    background: url(../images/blockquote.png) no-repeat;
+    width: 53px;
+    height: 44px;
+}
+						/*Footer*/
+
+#footer{   
+	background: url(../images/footer.png) repeat-x 50% 0;
+}
+.footer-holder{
+	max-width: 1170px;
+    margin: 0 auto;
+}
+.footer-holder .all-reference{
+    overflow: hidden;
+    padding: 76px 0 39px;
+}
+.footer-holder .all-reference .reference{
+    width: 50%;
+    float: left;
+}
+#footer .main-title{
+	display: block;
+	text-transform: uppercase;
+    font: 36px/42px 'Klavika-plain';
+    margin: 0 0 40px;
+    color: #fff;
+}
+#footer .title{
+	display: block;
+	font: bold 20px/24px 'Klavika Bd';
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.footer-holder .all-reference .reference-holder{
+    font: 16px/20px 'Klavika-osf';
+    overflow: hidden;
+    margin: 0 0 0 -27px;
+}
+.footer-holder .all-reference .reference nav{
+    float: left;
+    width: 270px;
+    margin: 0 0 56px 27px;
+}
+#footer .title a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-holder .all-reference .reference li{
+    border-bottom: 1px solid #d34d4d;
+    border-color: rgba(255,255,255,0.2);
+    margin: 0 0 10px;
+    padding: 0 0 7px;
+}
+.footer-holder .all-reference .reference ul a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-holder .all-reference .reference ul a:hover{
+	text-decoration: none;
+	color: darkgreen;
+}
+.down{
+	margin-top: 290px;
+}
+.footer-holder .all-reference .contacts{
+    width: 470px;
+    float: right;
+    padding: 6px 0 0 0.9%;
+    font: 19px/24px "klavika-web", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.footer-holder .all-reference address{
+    font-style: normal;
+    margin: 0 0 44px;
+}
+.footer-holder .all-reference address strong, 
+.footer-holder .all-reference address  {
+    display: block;
+    /*margin: 0 0 6px;*/
+}
+.contacts address strong:first-child{
+	margin-bottom: 40px;
+	font: 29px 'Klavika-plain-reg';
+	color: #ffffff;
+}
+.contacts address strong span{
+	color: #ffffff;
+	font: 29px 'Klavika Bd';
+} 
+.contacts address strong span a{
+	color: #ffffff;
+	font: 29px'Klavika Bd';
+	text-decoration: none;
+} 
+.contacts address strong span a:hover{
+	color: greenyellow;
+}
+.contacts address strong{
+	font: 19px/27px 'Klavika Bd';
+	color:#ffffff;
+} 
+.adres{
+	font: 19px 'Klavika-plain-reg';
+	color: #ffffff;
+	margin-bottom: 39px;
+	float: left;
+	line-height: 31px;
+} 
+.tel{
+	float: left;
+	line-height: 29px;
+}
+.tel a{
+	color: #ffffff;
+	font: 19px'Klavika-plain-reg';
+	text-decoration: none;
+
+}
+.tel a:first-child{
+	font: 19px 'Klavika Bd' ;
+}
+.tel a:hover{
+	color: chartreuse;
+}
+.footer-end{
+	overflow: hidden;
+	border-top: 1px solid #d34d4d;
+	border-color: rgba(255,255,255,0.2);
+	padding: 18px 0 101px;
+}
+.company{
+	float: left;
+    font: 11px/14px Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 1px 0 0;
+}
+.company a{
+	background: url(../images/logo-bg24.png)no-repeat 5px 0;
+	font-weight: bold;
+    color: #ffffff;
+    padding: 3px 0 2px 28px;
+    text-decoration: none;
+}
+.company a:hover{
+	color: chartreuse;
+}
+.mail{
+	float: right;
+	font: 14px 'Klavika Bd';
+	text-decoration: none;
+	color: #ffffff;
+	padding-right: 22px;
+	margin-top: -1px;
+}
+.tf{
+	float: right;
+	font: 14px 'Klavika-plain-reg';
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
