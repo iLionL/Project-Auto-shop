@@ -6,7 +6,6 @@ body{
 								/*Header*/
 
 .header-wrapper{
-	/*height: 104px;*/
 	background: url(../images/bg-heder.png)repeat-x 50% 0;
 	display: block;
 	margin: 0 auto;
@@ -149,13 +148,11 @@ body{
 
 								/*Dots-end*/
 .main-conteiner{
-	/*margin-top: 46px;*/
 	background: url(../images/carmaster.jpg) no-repeat 50% 0;
 	height: 456px; 
 	position: relative;
 }
 .main-conteiner1{
-	/*margin-top: 46px;*/
 	background: url(../images/carmaster1.jpg) no-repeat 50% 0;
 	height: 456px; 
 	position: relative;
@@ -234,7 +231,6 @@ body{
 #sidebar{
 	float: right;
     width: 371px;
-    /*padding: 0 0 0 0.6%;*/
 }
 #sidebar .register-holder {
 	background: #f2f2f2;
@@ -273,16 +269,6 @@ form, fieldset {
     height: 119px;
 	overflow: hidden;
 }
-/*.button label{
-	color: #000000;
-}
-.button{
-	padding-top:24px; 
-}
-#checkbox{
-	float: left;
-	margin-right: 11px;
-}*/
 #sidebar form input[type="text"]:hover, 
 #sidebar form input[type="tel"]:hover, 
 #sidebar form input[type="email"]:hover, 
@@ -547,7 +533,6 @@ ul {
 .footer-holder .all-reference address strong, 
 .footer-holder .all-reference address  {
     display: block;
-    /*margin: 0 0 6px;*/
 }
 .contacts address strong:first-child{
 	margin-bottom: 40px;
@@ -629,19 +614,3 @@ ul {
 	text-decoration: none;
 	color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
